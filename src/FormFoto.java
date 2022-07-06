@@ -60,7 +60,7 @@ public class FormFoto extends JFrame {
                 ImageIcon iconFoto = new ImageIcon("./Fotolar/" + txtFotoYolu.getText());
 
                 Image imageFoto=iconFoto.getImage();
-                Image modFoto =imageFoto.getScaledInstance(400,400,Image.SCALE_SMOOTH);
+                Image modFoto =imageFoto.getScaledInstance(300,300,Image.SCALE_SMOOTH);
 
                 ImageIcon icon = new ImageIcon(modFoto);
                 lblResim.setIcon(icon);
